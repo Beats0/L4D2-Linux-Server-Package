@@ -1,0 +1,8 @@
+L 02/05/2018 - 13:20:54: SourceMod error session started
+L 02/05/2018 - 13:20:54: Info (map "c1m3_mall") (file "errors_20180205.log")
+L 02/05/2018 - 13:20:54: [SM] Exception reported: Client 5 is not connected
+L 02/05/2018 - 13:20:54: [SM] Blaming: R_AutoIS.smx
+L 02/05/2018 - 13:20:54: [SM] Call stack trace:
+L 02/05/2018 - 13:20:54: [SM]   [0] IsFakeClient
+L 02/05/2018 - 13:20:54: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/05/2018 - 13:31:47: Error log file session closed.

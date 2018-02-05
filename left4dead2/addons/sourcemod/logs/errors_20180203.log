@@ -1,0 +1,36 @@
+L 02/03/2018 - 14:54:40: SourceMod error session started
+L 02/03/2018 - 14:54:40: Info (map "c1m1_hotel") (file "errors_20180203.log")
+L 02/03/2018 - 14:54:40: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 02/03/2018 - 14:54:40: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/ry_give_fix.txt":
+L 02/03/2018 - 14:54:40: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 02/03/2018 - 14:54:40: [SM] Exception reported: Unable to open ry_give_fix: File could not be opened: No such file or directory
+L 02/03/2018 - 14:54:40: [SM] Blaming: rygive.smx
+L 02/03/2018 - 14:54:40: [SM] Call stack trace:
+L 02/03/2018 - 14:54:40: [SM]   [0] LoadGameConfigFile
+L 02/03/2018 - 14:54:40: [SM]   [1] Line 25, E:\L4D2\我的插件\插件\主要\2016现用\rygive.sp::OnPluginStart
+L 02/03/2018 - 14:54:40: [SM] Unable to load plugin "rygive.smx": Error detected in plugin startup (see error logs)
+L 02/03/2018 - 14:54:44: Error log file session closed.
+L 02/03/2018 - 16:03:37: SourceMod error session started
+L 02/03/2018 - 16:03:37: Info (map "c1m1_hotel") (file "errors_20180203.log")
+L 02/03/2018 - 16:03:37: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 02/03/2018 - 16:03:37: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/ry_give_fix.txt":
+L 02/03/2018 - 16:03:37: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 02/03/2018 - 16:03:37: [SM] Exception reported: Unable to open ry_give_fix: File could not be opened: No such file or directory
+L 02/03/2018 - 16:03:37: [SM] Blaming: rygive.smx
+L 02/03/2018 - 16:03:37: [SM] Call stack trace:
+L 02/03/2018 - 16:03:37: [SM]   [0] LoadGameConfigFile
+L 02/03/2018 - 16:03:37: [SM]   [1] Line 25, E:\L4D2\我的插件\插件\主要\2016现用\rygive.sp::OnPluginStart
+L 02/03/2018 - 16:03:37: [SM] Unable to load plugin "rygive.smx": Error detected in plugin startup (see error logs)
+L 02/03/2018 - 16:03:40: Error log file session closed.
+L 02/03/2018 - 18:02:56: SourceMod error session started
+L 02/03/2018 - 18:02:56: Info (map "c1m1_hotel") (file "errors_20180203.log")
+L 02/03/2018 - 18:02:56: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 02/03/2018 - 18:02:56: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/ry_give_fix.txt":
+L 02/03/2018 - 18:02:56: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 02/03/2018 - 18:02:56: [SM] Exception reported: Unable to open ry_give_fix: File could not be opened: No such file or directory
+L 02/03/2018 - 18:02:56: [SM] Blaming: rygive.smx
+L 02/03/2018 - 18:02:56: [SM] Call stack trace:
+L 02/03/2018 - 18:02:56: [SM]   [0] LoadGameConfigFile
+L 02/03/2018 - 18:02:56: [SM]   [1] Line 25, E:\L4D2\我的插件\插件\主要\2016现用\rygive.sp::OnPluginStart
+L 02/03/2018 - 18:02:56: [SM] Unable to load plugin "rygive.smx": Error detected in plugin startup (see error logs)
+L 02/03/2018 - 18:02:59: Error log file session closed.

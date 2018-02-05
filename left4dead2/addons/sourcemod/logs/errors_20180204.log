@@ -1,0 +1,121 @@
+L 02/04/2018 - 14:46:26: SourceMod error session started
+L 02/04/2018 - 14:46:26: Info (map "c1m1_hotel") (file "errors_20180204.log")
+L 02/04/2018 - 14:46:26: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 02/04/2018 - 14:46:26: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/ry_give_fix.txt":
+L 02/04/2018 - 14:46:26: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 02/04/2018 - 14:46:26: [SM] Exception reported: Unable to open ry_give_fix: File could not be opened: No such file or directory
+L 02/04/2018 - 14:46:26: [SM] Blaming: rygive.smx
+L 02/04/2018 - 14:46:26: [SM] Call stack trace:
+L 02/04/2018 - 14:46:26: [SM]   [0] LoadGameConfigFile
+L 02/04/2018 - 14:46:26: [SM]   [1] Line 25, E:\L4D2\我的插件\插件\主要\2016现用\rygive.sp::OnPluginStart
+L 02/04/2018 - 14:46:26: [SM] Unable to load plugin "rygive.smx": Error detected in plugin startup (see error logs)
+L 02/04/2018 - 14:46:29: Error log file session closed.
+L 02/04/2018 - 15:19:21: SourceMod error session started
+L 02/04/2018 - 15:19:21: Info (map "c1m1_hotel") (file "errors_20180204.log")
+L 02/04/2018 - 15:19:21: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 02/04/2018 - 15:19:21: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/ry_give_fix.txt":
+L 02/04/2018 - 15:19:21: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 02/04/2018 - 15:19:21: [SM] Exception reported: Unable to open ry_give_fix: File could not be opened: No such file or directory
+L 02/04/2018 - 15:19:21: [SM] Blaming: rygive.smx
+L 02/04/2018 - 15:19:21: [SM] Call stack trace:
+L 02/04/2018 - 15:19:21: [SM]   [0] LoadGameConfigFile
+L 02/04/2018 - 15:19:21: [SM]   [1] Line 25, E:\L4D2\我的插件\插件\主要\2016现用\rygive.sp::OnPluginStart
+L 02/04/2018 - 15:19:21: [SM] Unable to load plugin "rygive.smx": Error detected in plugin startup (see error logs)
+L 02/04/2018 - 15:19:25: Error log file session closed.
+L 02/04/2018 - 16:31:32: SourceMod error session started
+L 02/04/2018 - 16:31:32: Info (map "c1m1_hotel") (file "errors_20180204.log")
+L 02/04/2018 - 16:31:32: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 02/04/2018 - 16:31:33: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/ry_give_fix.txt":
+L 02/04/2018 - 16:31:33: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 02/04/2018 - 16:31:33: [SM] Exception reported: Unable to open ry_give_fix: File could not be opened: No such file or directory
+L 02/04/2018 - 16:31:33: [SM] Blaming: rygive.smx
+L 02/04/2018 - 16:31:33: [SM] Call stack trace:
+L 02/04/2018 - 16:31:33: [SM]   [0] LoadGameConfigFile
+L 02/04/2018 - 16:31:33: [SM]   [1] Line 25, E:\L4D2\我的插件\插件\主要\2016现用\rygive.sp::OnPluginStart
+L 02/04/2018 - 16:31:33: [SM] Unable to load plugin "rygive.smx": Error detected in plugin startup (see error logs)
+L 02/04/2018 - 16:31:40: Error log file session closed.
+L 02/04/2018 - 16:49:39: SourceMod error session started
+L 02/04/2018 - 16:49:39: Info (map "c1m1_hotel") (file "errors_20180204.log")
+L 02/04/2018 - 16:49:39: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 02/04/2018 - 16:49:40: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/ry_give_fix.txt":
+L 02/04/2018 - 16:49:40: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 02/04/2018 - 16:49:40: [SM] Exception reported: Unable to open ry_give_fix: File could not be opened: No such file or directory
+L 02/04/2018 - 16:49:40: [SM] Blaming: rygive.smx
+L 02/04/2018 - 16:49:40: [SM] Call stack trace:
+L 02/04/2018 - 16:49:40: [SM]   [0] LoadGameConfigFile
+L 02/04/2018 - 16:49:40: [SM]   [1] Line 25, E:\L4D2\我的插件\插件\主要\2016现用\rygive.sp::OnPluginStart
+L 02/04/2018 - 16:49:40: [SM] Unable to load plugin "rygive.smx": Error detected in plugin startup (see error logs)
+L 02/04/2018 - 16:49:47: Error log file session closed.
+L 02/04/2018 - 17:00:19: SourceMod error session started
+L 02/04/2018 - 17:00:19: Info (map "c1m1_hotel") (file "errors_20180204.log")
+L 02/04/2018 - 17:00:19: [SM] Failed to load plugin "nextmap.smx": Nextmap is incompatible with this game.
+L 02/04/2018 - 17:00:20: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/ry_give_fix.txt":
+L 02/04/2018 - 17:00:20: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 02/04/2018 - 17:00:20: [SM] Exception reported: Unable to open ry_give_fix: File could not be opened: No such file or directory
+L 02/04/2018 - 17:00:20: [SM] Blaming: rygive.smx
+L 02/04/2018 - 17:00:20: [SM] Call stack trace:
+L 02/04/2018 - 17:00:20: [SM]   [0] LoadGameConfigFile
+L 02/04/2018 - 17:00:20: [SM]   [1] Line 25, E:\L4D2\我的插件\插件\主要\2016现用\rygive.sp::OnPluginStart
+L 02/04/2018 - 17:00:20: [SM] Unable to load plugin "rygive.smx": Error detected in plugin startup (see error logs)
+L 02/04/2018 - 17:00:27: Error log file session closed.
+L 02/04/2018 - 20:54:28: SourceMod error session started
+L 02/04/2018 - 20:54:28: Info (map "c13m1_alpinecreek") (file "errors_20180204.log")
+L 02/04/2018 - 20:54:28: [SM] Exception reported: Client 11 is not connected
+L 02/04/2018 - 20:54:28: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 20:54:28: [SM] Call stack trace:
+L 02/04/2018 - 20:54:28: [SM]   [0] IsFakeClient
+L 02/04/2018 - 20:54:28: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 20:58:33: Error log file session closed.
+L 02/04/2018 - 21:40:21: SourceMod error session started
+L 02/04/2018 - 21:40:21: Info (map "c1m1_hotel") (file "errors_20180204.log")
+L 02/04/2018 - 21:40:21: [SM] Exception reported: Client 6 is not connected
+L 02/04/2018 - 21:40:21: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:40:21: [SM] Call stack trace:
+L 02/04/2018 - 21:40:21: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:40:21: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:00: [SM] Exception reported: Client 2 is not connected
+L 02/04/2018 - 21:43:00: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:43:00: [SM] Call stack trace:
+L 02/04/2018 - 21:43:00: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:43:00: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:21: [SM] Exception reported: Client 2 is not connected
+L 02/04/2018 - 21:43:21: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:43:21: [SM] Call stack trace:
+L 02/04/2018 - 21:43:21: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:43:21: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:24: [SM] Exception reported: Client 2 is not connected
+L 02/04/2018 - 21:43:24: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:43:24: [SM] Call stack trace:
+L 02/04/2018 - 21:43:24: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:43:24: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:26: [SM] Exception reported: Client 2 is not connected
+L 02/04/2018 - 21:43:26: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:43:26: [SM] Call stack trace:
+L 02/04/2018 - 21:43:26: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:43:26: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:26: [SM] Exception reported: Client 4 is not connected
+L 02/04/2018 - 21:43:26: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:43:26: [SM] Call stack trace:
+L 02/04/2018 - 21:43:26: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:43:26: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:27: [SM] Exception reported: Client 2 is not connected
+L 02/04/2018 - 21:43:27: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:43:27: [SM] Call stack trace:
+L 02/04/2018 - 21:43:27: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:43:27: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:27: [SM] Exception reported: Client 9 is not connected
+L 02/04/2018 - 21:43:27: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:43:27: [SM] Call stack trace:
+L 02/04/2018 - 21:43:27: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:43:27: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:27: [SM] Exception reported: Client 10 is not connected
+L 02/04/2018 - 21:43:27: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:43:27: [SM] Call stack trace:
+L 02/04/2018 - 21:43:27: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:43:27: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:27: [SM] Exception reported: Client 11 is not connected
+L 02/04/2018 - 21:43:27: [SM] Blaming: R_AutoIS.smx
+L 02/04/2018 - 21:43:27: [SM] Call stack trace:
+L 02/04/2018 - 21:43:27: [SM]   [0] IsFakeClient
+L 02/04/2018 - 21:43:27: [SM]   [1] Line 1429, E:\L4D2\我的插件\插件\2017\命令\R_AutoIS.sp::TimerKickINFClient
+L 02/04/2018 - 21:43:41: Error log file session closed.

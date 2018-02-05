@@ -1,0 +1,68 @@
+"R_Auto_Change_Maps"
+{
+	"c1m4_atrium"
+	{
+		"R_ACM_Next_Maps" "c2m1_highway"
+		"R_ACM_Next_Name" "c2-黑色狂欢节"
+	}
+	"c2m5_concert"
+	{
+		"R_ACM_Next_Maps" "c3m1_plankcountry"
+		"R_ACM_Next_Name" "c3-沼泽激战"
+	}
+	"c3m4_plantation"
+	{
+		"R_ACM_Next_Maps" "c4m1_milltown_a"
+		"R_ACM_Next_Name" "c4-暴风骤雨"
+	}
+	"c4m5_milltown_escape"
+	{
+		"R_ACM_Next_Maps" "c5m1_waterfront"
+		"R_ACM_Next_Name" "c5-教区"
+	}
+	"c5m5_bridge"
+	{
+		"R_ACM_Next_Maps" "c6m1_riverbank"
+		"R_ACM_Next_Name" "c6-短暂时刻"
+	}
+	"c6m3_port"
+	{
+		"R_ACM_Next_Maps" "c7m1_docks"
+		"R_ACM_Next_Name" "c7-牺牲"
+	}
+	"c7m3_port"
+	{
+		"R_ACM_Next_Maps" "c8m1_apartment"
+		"R_ACM_Next_Name" "c8-毫不留情"
+	}
+	"c8m5_rooftop"
+	{
+		"R_ACM_Next_Maps" "c9m1_alleys"
+		"R_ACM_Next_Name" "c9-坠机险途"
+	}
+	"c9m2_lots"
+	{
+		"R_ACM_Next_Maps" "c10m1_caves"
+		"R_ACM_Next_Name" "c10-死亡丧钟"
+	}
+	"c10m5_houseboat"
+	{
+		"R_ACM_Next_Maps" "c11m1_greenhouse"
+		"R_ACM_Next_Name" "c11-静寂时分"
+	}
+	"c11m5_runway"
+	{
+		"R_ACM_Next_Maps" "c12m1_hilltop"
+		"R_ACM_Next_Name" "c12-血腥收获"
+	}
+	"c12m5_cornfield"
+	{
+		"R_ACM_Next_Maps" "c13m1_alpinecreek"
+		"R_ACM_Next_Name" "c13-刺骨寒溪"
+	}
+	"c13m4_cutthroatcreek"
+	{
+		"R_ACM_Next_Maps" "c1m1_hotel"
+		"R_ACM_Next_Name" "c1-死亡中心"
+	}
+}
