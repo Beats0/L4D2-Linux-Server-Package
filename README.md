@@ -74,11 +74,49 @@ L4D2_Rmc_total "8"
 
 ##### 插件管理
 ```
+//配置Left 4 Dead 2 Dedicated Server\left4dead2\addons\sourcemod\plugins
+plugins
+     ├─admin-flatfile.smx
+     ├─adminhelp.smx
+     ├─adminmenu.smx            //!admin 管理员指令
+     ├─all4dead2.smx
+     ├─antiflood.smx
+     ├─basebans.smx
+     ├─basechat.smx
+     ├─basecomm.smx
+     ├─basecommands.smx
+     ├─basetriggers.smx
+     ├─basevotes.smx
+     ├─bhop.smx                 //Bhop连跳，默认开启
+     ├─clientprefs.smx          //连接时展示面板
+     ├─funcommands.smx          //杂七杂八的娱乐命令
+     ├─funvotes.smx             //!vote 投票
+     ├─hp.smx                   //!hp 加血控制
+     ├─l4d2_infectedbots_fix_ch.smx//智能模式
+     ├─l4d2_kill_mvp.smx        //击杀排行面板
+     ├─l4d2_more_medical.smx    //多倍补给
+     ├─l4d2_showdamage.smx      //显示伤害
+     ├─l4d2_tank_hp.smx         //tank血量
+     ├─l4d2_WeaponUnlock.smx    //隐藏武器解锁
+     ├─l4d2_zisha.smx           //!zs/!kill 自杀
+     ├─l4d_gear_transfer.smx    //给予物品
+     ├─l4d_infectedhp.smx       //显示血条
+     ├─l4d_Rmc.smx              //服务器人数设置
+     ├─nextmap.smx              //自动换图
+     ├─playercommands.smx       //玩家命令
+     ├─reservedslots.smx
+     ├─rygive.smx               //!rygive 获取
+     ├─R_AC_MAPS.smx            //自动换图
+     ├─R_AutoIS.smx             //多特插件
+     ├─R_UD_FF.smx              //伤害控制
+     └─sounds.smx
+
+
 //配置Left 4 Dead 2 Dedicated Server\left4dead2\cfg
 
 cfg
 ├─sourcemod
-|     ├─funcommands.cfg
+│     ├─funcommands.cfg
 │     ├─l4d2_All4Dead2.cfg
 │     ├─l4d2_kill_mvp.cfg
 │     ├─l4d2_more_medical.cfg
@@ -109,15 +147,17 @@ apt-get install screen
 cd /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/
 
 // 用screen命令后台启动服务器
-screen /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/
+screen /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/start.sh
 
 // 服务器启动成功后按Ctrl+A,再按D后台服务器挂起即可
 
-// 关于start.sh的内容 ./srcds_run -game left4dead2 -secure +hostport 23333 -condebug +exec server.cfg
+// 关于start.sh的内容 ./srcds_run -game left4dead2 -secure +hostport 23333 +map c2m1_highway -condebug +exec server.cfg
+
 // ./srcds_run 就是运行服务端程序 后面跟的都是运行参数
 // -game left4dead2 指定游戏为L4D2
 // -secure 开启VAC
 // +hostport 23333 指定服务器端口为23333
+// +map c2m1_highway 默认开始地图
 // -condebug 开启记录日志 在left4dead2文件夹下生成console.log的记录文件
 // +exec server.cfg 加载server.cfg
 ```
