@@ -79,7 +79,7 @@ plugins
      ├─admin-flatfile.smx
      ├─adminhelp.smx
      ├─adminmenu.smx            //!admin 管理员指令
-     ├─all4dead2.smx
+     ├─all4dead2.smx            //造物插件
      ├─antiflood.smx
      ├─basebans.smx
      ├─basechat.smx
@@ -99,15 +99,17 @@ plugins
      ├─l4d2_tank_hp.smx         //tank血量
      ├─l4d2_WeaponUnlock.smx    //隐藏武器解锁
      ├─l4d2_zisha.smx           //!zs/!kill 自杀
-     ├─l4d_gear_transfer.smx    //给予物品
+     ├─l4d_gear_transfer.smx    //电脑自动传递物品
      ├─l4d_infectedhp.smx       //显示血条
      ├─l4d_Rmc.smx              //服务器人数设置
+     ├─l8d.smx                  // /sm_l8d_menu 服务器人数设置
      ├─nextmap.smx              //自动换图
      ├─playercommands.smx       //玩家命令
      ├─reservedslots.smx
      ├─rygive.smx               //!rygive 获取
      ├─R_AC_MAPS.smx            //自动换图
      ├─R_AutoIS.smx             //多特插件
+     ├─R_MA.smx                 //debug 解决人物混乱的问题
      ├─R_UD_FF.smx              //伤害控制
      └─sounds.smx
 
@@ -129,11 +131,25 @@ cfg
 │     ├─l4d_infectedhp.cfg
 │     ├─R_AC_MAPS.cfg
 │     ├─R_AutoIS.cfg
+|     ├─R_MA.cfg
 │     ├─R_UD_FF.cfg
 │     ├─sm_warmode_off.cfg
 │     ├─sm_warmode_on.cfg
 │     └─sourcemod.cfg
 └─server.cfg
+```
+
+##### 涉及指令
+```
+// say
+!admin				管理员指令
+!zs / !kill			自杀
+!rygive				管理员指令
+!jg/!joingame		加入游戏
+!away				旁观
+!addbot				添加一个bot
+!kb				    剔除bot
+!hp				    管理员指令
 ```
 
 ##### 服务器启动
@@ -183,6 +199,9 @@ screen /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/start.sh
  - [药抗插件：Stabbath/ProMod](https://github.com/Stabbath/ProMod)
  - [药抗整合包：Paubrk/Promod-fully-install-package](https://github.com/Paubrk/Promod-fully-install-package)
  - [服务器启动管理：mvandorp/server-config](https://github.com/mvandorp/server-config)
+ - [插件汉化by望夜](http://bbs.3dmgame.com/forum.php?mod=viewthread&tid=4920489&page=8&authorid=778835)
+ - [bilibili 兔子整理及视频](https://www.bilibili.com/video/av5466730/)
+ - [插件论坛 alliedmods.net](https://forums.alliedmods.net/)
 
 #### 我的服务器(Bhop server)
 connect 47.94.16.206:23333
