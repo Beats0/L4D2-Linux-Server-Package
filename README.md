@@ -12,7 +12,7 @@ PuTTY是一个Telnet、SSH、rlogin、纯TCP以及串行接口连接软件。较
 
 `Xftp`
 
-是一个基于 MS windows 平台的功能强大的SFTP、FTP 文件传输软件。
+是一个基于 MS windows 平台的功能强大的SFTP、FTP 文件传输软件
 
 ##### 插件默认配置
 
@@ -102,7 +102,8 @@ plugins
      ├─l4d_gear_transfer.smx    //电脑自动传递物品
      ├─l4d_infectedhp.smx       //显示血条
      ├─l4d_Rmc.smx              //服务器人数设置
-     ├─l8d.smx                  // /sm_l8d_menu 服务器人数设置
+     ├─l4dafkfix.smx            //debug服务器人数设置
+     ├─l4dmultislots.smx        //服务器人数设置 详见 https://forums.alliedmods.net/showthread.php?t=132408
      ├─nextmap.smx              //自动换图
      ├─playercommands.smx       //玩家命令
      ├─reservedslots.smx
@@ -142,14 +143,14 @@ cfg
 ##### 涉及指令
 ```
 // say
-!admin				管理员指令
-!zs / !kill			自杀
+!admin              管理员指令
+!zs / !kill         自杀
 !rygive				管理员指令
-!jg/!joingame		加入游戏
-!away				旁观
-!addbot				添加一个bot
-!kb				    剔除bot
-!hp				    管理员指令
+!jg/!joingame	    加入游戏
+!away               旁观
+!addbot             添加一个bot
+!kb                 剔除bot
+!hp                 管理员指令
 ```
 
 ##### 服务器启动
@@ -192,7 +193,9 @@ screen /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/start.sh
  或者直接删除`l4d2_infectedbots_fix_ch`该插件,不喜欢的插件就到这个位置删除（对应插件名字）
 `Steam\steamapps\common\Left 4 Dead 2 Dedicated Server\left4dead2\addons\sourcemod\plugins`
 
- 4. 其他问题......建议等死_(:3/L)\		（百度谷歌或者问问其他老司机）
+ 4. 用 `screen` 命令有时候服务器进程可能任然会死掉，建议平时多检查服务器是否还在运行，如果死掉了就kill掉进程再重开
+
+ 5. 其他问题......建议等死_(:3/L)\		（百度谷歌或者问问其他老司机）
 
 #### 其他参考
  - [贴吧：[教程]猴子都能看懂的服务器架设教程(Linux限定)](https://tieba.baidu.com/p/4783601071?red_tag=0795345647)

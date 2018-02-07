@@ -1,0 +1,78 @@
+/* created by V10 aka maldersoft */
+"Games"
+{
+	"left4dead2"
+	{
+		"Addresses"
+		{
+			"CDirector"
+			{
+				"windows"
+				{
+					"signature" "DirectorMusicBanks::OnRoundStart"				
+					"read" "12"					
+				}
+				"linux"
+				{
+					"signature" "TheDirector"
+				}
+			}
+		}
+		"Offsets"
+		{
+			"WitchAttackCharaster"
+			{
+				"windows"	"14"
+				"linux"		"14"
+			}
+			"SurvivorCounters"
+			{
+				"windows"	"1056"
+				"linux"		"1048"
+			}		
+		}
+		"Signatures"
+		{
+			"WitchAttack::WitchAttack"
+			{
+				"library"    "server"
+				"windows"    "\x55\x8B\xEC\x53\x56\x8B\xF1\xC7\x46\x04****\xC7\x46\x2C\x01\x00\x00\x00\x33\xDB\x33\xC0\x89\x46*\x33\xC9\x89\x4E*\x57\x33\xD2\x89\x56*\x33\xFF\x89\x5E*\x89\x5E*\x89\x5E*\x89\x5E*\x89\x5E*\x89\x5E*\x66\x89\x5E*\x89\x7E*\xC7\x06****\xC7\x46\x04****\x53"
+				"linux"        "@_ZN11WitchAttackC2EP11CBaseEntity"
+			}
+			"CCharge::HandleCustomCollision_code"
+			{
+				"library"    "server"
+				"windows"    "\x0f\x85***\x00\xc6\x00\x01\x8b\x15****\xf3\x0f\x10\x42*\xf3\x0f\x59\xc0\x0f"
+				"linux"        "\x0F\x85**\xFF\xFF\xC6\x84****\x00\x01\xF3\x0F\x58\xC1\xA1****\xF3\x0F\x58\xC2\xF3"
+			}
+			"CCharge::HandleCustomCollision"
+			{
+				"library"    "server"
+				"windows"    "\x55\x8b\xec\x81\xec**\x00\x00\xa1****\x33\xc5\x89\x45*\x8b\x45*\x53\x8b\xd9\x89\x45*\x8b\x83**\x00\x00\x56\x8b\x75"
+				"linux"        "@_ZN7CCharge21HandleCustomCollisionEP11CBaseEntityRK6VectorS4_P10CGameTraceP9CMoveData"
+			}
+			"CTerrorGameRules::CalculateSurvivalMultiplier"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8b\xec\x83\xec*\x80\x7d*\x00\x53\x56\x8b\xd9\x0f\x84**\x00\x00"
+				"linux"		"@_ZN16CTerrorGameRules27CalculateSurvivalMultiplierEb"
+			}
+			"TheDirector"
+			{
+				"library"	"server"
+				"linux"		"@TheDirector"
+			}
+			"DirectorMusicBanks::OnRoundStart"
+			{
+				"library"	"server"
+				"windows"   "\x55\x8b\xec\x83\xec*\x56\x57\x8b\xf9\x8b\x0d****\xe8****\x84\xc0\x0f\x85"
+			}
+			"CDirector::AreTeamsFlipped"
+			{
+				"library"	"server"
+				"windows"   "\x57\x8b\xf9\xe8****\x84\xc0\x75*\xf7\x05*******\x00\x56\x74*\xbe"
+				"linux"		"@_ZNK9CDirector15AreTeamsFlippedEv"
+			}
+		}
+	}
+}
