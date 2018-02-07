@@ -41,13 +41,16 @@ sv_gametypes coop
 
 `多人服务器`
 ```shell
-//配置Left 4 Dead 2 Dedicated Server\left4dead2\cfg\sourcemod\l4d2_rmc.cfg
+//配置Left 4 Dead 2 Dedicated Server\left4dead2\cfg\sourcemod\sourcemod.cfg
 
-// 服务器支持玩家人数设置
-// Default: "4"
-// Minimum: "1.000000"
-// Maximum: "24.000000"
-L4D2_Rmc_total "8"
+// 最大支持玩家数
+sv_maxplayers 8
+
+// 显示最大支持玩家数
+sv_visiblemaxplayers 8
+
+// 移除玩家数量限制
+sv_removehumanlimit 1
 ```
 
 `admin管理员`
@@ -98,6 +101,7 @@ plugins
      ├─funvotes.smx             //!vote 投票
      ├─hp.smx                   //!hp 加血控制
      ├─l4d2_infectedbots_fix_ch.smx//智能模式
+     ├─14d2.info.smx            //连接信息显示及黑白提示
      ├─l4d2_kill_mvp.smx        //击杀排行面板
      ├─l4d2_more_medical.smx    //多倍补给
      ├─l4d2_showdamage.smx      //显示伤害
@@ -106,7 +110,6 @@ plugins
      ├─l4d2_zisha.smx           //!zs/!kill 自杀
      ├─l4d_gear_transfer.smx    //电脑自动传递物品
      ├─l4d_infectedhp.smx       //显示血条
-     ├─l4d_Rmc.smx              //服务器人数设置
      ├─l4dafkfix.smx            //debug服务器人数设置
      ├─l4dmultislots.smx        //服务器人数设置 详见 https://forums.alliedmods.net/showthread.php?t=132408
      ├─nextmap.smx              //自动换图
@@ -150,7 +153,7 @@ cfg
 // say
 !admin              管理员指令
 !zs/!kill           自杀
-!rygive				管理员指令
+!rygive             管理员指令
 !jg/!joingame	    加入游戏
 !away               旁观
 !addbot             添加一个bot
