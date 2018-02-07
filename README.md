@@ -17,16 +17,21 @@ PuTTY是一个Telnet、SSH、rlogin、纯TCP以及串行接口连接软件。较
 ##### 插件默认配置
 
 `coop` 模式
-```
+```shell
 //配置Left 4 Dead 2 Dedicated Server\left4dead2\cfg\server.cfg
 
 // 服务器名称
 hostname "L4D2 Bhop Server[Beats0]"
 
-//  coop战役模式，versus对抗模式
+// versus 对抗模式
+// realism 写实模式
+// survival 生存模式
+// scavenge 清道夫模式
+// teamscavenge 团队清道夫模式
+// teamversus 团队对抗模式
+
 sm_cvar mp_gamemode "coop"
 
-// coop战役模式，versus对抗模式
 sv_gametypes coop
 
 // 对抗或药抗请访问
@@ -35,7 +40,7 @@ sv_gametypes coop
 ```
 
 `多人服务器`
-```
+```shell
 //配置Left 4 Dead 2 Dedicated Server\left4dead2\cfg\sourcemod\l4d2_rmc.cfg
 
 // 服务器支持玩家人数设置
@@ -46,7 +51,7 @@ L4D2_Rmc_total "8"
 ```
 
 `admin管理员`
-```
+```shell
 //配置Left 4 Dead 2 Dedicated Server\left4dead2\addons\sourcemod\configs\admins_simple.ini
 
 //管理员设置：
@@ -73,7 +78,7 @@ L4D2_Rmc_total "8"
 `Steam\steamapps\common\Left 4 Dead 2 Dedicated Server\left4dead2\cfg\sourcemod`
 
 ##### 插件管理
-```
+```shell
 //配置Left 4 Dead 2 Dedicated Server\left4dead2\addons\sourcemod\plugins
 plugins
      ├─admin-flatfile.smx
@@ -132,7 +137,7 @@ cfg
 │     ├─l4d_infectedhp.cfg
 │     ├─R_AC_MAPS.cfg
 │     ├─R_AutoIS.cfg
-|     ├─R_MA.cfg
+│     ├─R_MA.cfg
 │     ├─R_UD_FF.cfg
 │     ├─sm_warmode_off.cfg
 │     ├─sm_warmode_on.cfg
@@ -141,20 +146,33 @@ cfg
 ```
 
 ##### 涉及指令
-```
+```shell
 // say
 !admin              管理员指令
-!zs / !kill         自杀
+!zs/!kill           自杀
 !rygive				管理员指令
 !jg/!joingame	    加入游戏
 !away               旁观
 !addbot             添加一个bot
 !kb                 剔除bot
 !hp                 管理员指令
+
+// 服务器人数设置 详见: https://forums.alliedmods.net/showthread.php?t=132408
+
+//Commands:
+
+sm_addbot: (requires admin kick flag) Attempt to add and teleport a survivor bot
+sm_join: Attempt to join the Survivor team
+
+// Cvars:
+
+l4d_multislots_max_survivors (How many survivors allowed?)
+l4d_multislots_max_infected (How many infected allowed?)
+l4d_multislots_kickafk (Kick idle players? (0 = no 1 = player 5 min, admins kickimmune 2 = player 5 min, admins 10 min))
 ```
 
 ##### 服务器启动
-```
+```shell
 //配置Left 4 Dead 2 Dedicated Server\start.sh
 
 // 安装screen，用来挂后台服务
