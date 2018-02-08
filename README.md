@@ -41,13 +41,13 @@ sv_gametypes coop
 
 `多人服务器`
 ```shell
-//配置Left 4 Dead 2 Dedicated Server\left4dead2\cfg\sourcemod\sourcemod.cfg
+//配置Left 4 Dead 2 Dedicated Server\left4dead2\cfg\server.cfg
 
 // 最大支持玩家数
-sv_maxplayers 8
+sv_maxplayers 12
 
 // 显示最大支持玩家数
-sv_visiblemaxplayers 8
+sv_visiblemaxplayers 12
 
 // 移除玩家数量限制
 sv_removehumanlimit 1
@@ -158,7 +158,9 @@ cfg
 !away               旁观
 !addbot             添加一个bot
 !kb                 剔除bot
-!hp                 管理员指令
+!hp                 回血指令
+!on14/!on142        开启4特/8特模式
+!off14              关闭多特模式
 
 // 服务器人数设置 详见: https://forums.alliedmods.net/showthread.php?t=132408
 
@@ -169,9 +171,8 @@ sm_join: Attempt to join the Survivor team
 
 // Cvars:
 
-l4d_multislots_max_survivors (How many survivors allowed?)
-l4d_multislots_max_infected (How many infected allowed?)
-l4d_multislots_kickafk (Kick idle players? (0 = no 1 = player 5 min, admins kickimmune 2 = player 5 min, admins 10 min))
+sm_cvar sv_maxplayers "12"              //Server可容納最大人數(12)
+sm_cvar sv_visiblemaxplayers "12"       //Server可容納幸存者人數(12)
 ```
 
 ##### 服务器启动
@@ -228,4 +229,7 @@ screen /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/start.sh
  - [插件论坛 alliedmods.net](https://forums.alliedmods.net/)
 
 #### 我的服务器(Bhop server)
+
 connect 47.94.16.206:23333
+
+status 2018-02-06————2019-02-06
