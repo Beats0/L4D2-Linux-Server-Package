@@ -6,13 +6,11 @@
 
 ##### 可能需要用到的工具
 
-`PuTTY`
+`PuTTY` PuTTY是一个Telnet、SSH、rlogin、纯TCP以及串行接口连接软件。较早的版本仅支持Windows平台，在最近的版本中开始支持各类Unix平台
 
-PuTTY是一个Telnet、SSH、rlogin、纯TCP以及串行接口连接软件。较早的版本仅支持Windows平台，在最近的版本中开始支持各类Unix平台
+`Xftp` 是一个基于 MS windows 平台的功能强大的SFTP、FTP 文件传输软件
 
-`Xftp`
-
-是一个基于 MS windows 平台的功能强大的SFTP、FTP 文件传输软件
+注意Xftp的使用必须是以自己的时区为准，当初因为hammer editor必须要使用美国时区，所以一直不能安装，差点被坑死，后来换成自己的所在时区就行了
 
 ##### 插件默认配置
 
@@ -39,19 +37,6 @@ sv_gametypes coop
 // 药抗整合包：https://github.com/Paubrk/Promod-fully-install-package
 ```
 
-`多人服务器`
-```shell
-//配置Left 4 Dead 2 Dedicated Server\left4dead2\cfg\server.cfg
-
-// 最大支持玩家数
-sv_maxplayers 12
-
-// 显示最大支持玩家数
-sv_visiblemaxplayers 12
-
-// 移除玩家数量限制
-sv_removehumanlimit 1
-```
 
 `admin管理员`
 ```shell
@@ -109,9 +94,9 @@ plugins
      ├─l4d2_WeaponUnlock.smx    //隐藏武器解锁
      ├─l4d2_zisha.smx           //!zs/!kill 自杀
      ├─l4d_gear_transfer.smx    //电脑自动传递物品
+     ├─l4d_Rmc.smx              //服务器人数
      ├─l4d_infectedhp.smx       //显示血条
      ├─l4dafkfix.smx            //debug服务器人数设置
-     ├─l4dmultislots.smx        //服务器人数设置 详见 https://forums.alliedmods.net/showthread.php?t=132408
      ├─nextmap.smx              //自动换图
      ├─playercommands.smx       //玩家命令
      ├─reservedslots.smx
@@ -138,6 +123,7 @@ cfg
 │     ├─l4dinfectedbots.cfg
 │     ├─l4d_gear_transfer.cfg
 │     ├─l4d_infectedhp.cfg
+|     ├─l4d2_rmc.cfg
 │     ├─R_AC_MAPS.cfg
 │     ├─R_AutoIS.cfg
 │     ├─R_MA.cfg
@@ -159,20 +145,11 @@ cfg
 !addbot             添加一个bot
 !kb                 剔除bot
 !hp                 回血指令
-!on14/!on142        开启4特/8特模式
-!off14              关闭多特模式
-
-// 服务器人数设置 详见: https://forums.alliedmods.net/showthread.php?t=132408
-
-//Commands:
-
-sm_addbot: (requires admin kick flag) Attempt to add and teleport a survivor bot
-sm_join: Attempt to join the Survivor team
 
 // Cvars:
 
-sm_cvar sv_maxplayers "12"              //Server可容納最大人數(12)
-sm_cvar sv_visiblemaxplayers "12"       //Server可容納幸存者人數(12)
+sm_cvar sv_maxplayers "12"
+sm_cvar sv_visiblemaxplayers "12"
 ```
 
 ##### 服务器启动
@@ -233,3 +210,5 @@ screen /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/start.sh
 connect 47.94.16.206:23333
 
 status 2018-02-06————2019-02-06
+
+最后提醒一下，开服务器确实简单，但要让服务器活下去就不好说了，因为总有人搞事情，总有人DDos攻击你的服务器，呵呵
