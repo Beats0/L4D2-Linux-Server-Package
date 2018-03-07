@@ -123,7 +123,6 @@ cfg
 │     ├─l4dinfectedbots.cfg
 │     ├─l4d_gear_transfer.cfg
 │     ├─l4d_infectedhp.cfg
-|     ├─l4d2_rmc.cfg
 │     ├─R_AC_MAPS.cfg
 │     ├─R_AutoIS.cfg
 │     ├─R_MA.cfg
@@ -146,10 +145,10 @@ cfg
 !kb                 剔除bot
 !hp                 回血指令
 
-// Cvars:
+// 调整人数:
 
-sm_cvar sv_maxplayers "12"
-sm_cvar sv_visiblemaxplayers "12"
+!sm_cvar sv_maxplayers "12"
+!sm_cvar sv_visiblemaxplayers "12"
 ```
 
 ##### 服务器启动
@@ -163,7 +162,7 @@ apt-get install screen
 cd /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/
 
 // 用screen命令后台启动服务器
-screen /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/start.sh
+screen ./start.sh
 
 // 服务器启动成功后按Ctrl+A,再按D后台服务器挂起即可
 
@@ -187,9 +186,8 @@ screen /root/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/start.sh
  2. 显示房主不在不可加入游戏中或者只能进去4个人或者无限加载？
  - 房主邀请，或者重新开房；还是不行？本插件与你无缘
 
- 3. 特感太多？
- - 在多特插件`l4dinfectedbots.cfg` 对应cfg文件里设置特感数目<br>
- 或者直接删除`l4d2_infectedbots_fix_ch`该插件,不喜欢的插件就到这个位置删除（对应插件名字）
+ 3.不喜欢的插件就到这个位置删除（对应插件名字）
+ 
 `Steam\steamapps\common\Left 4 Dead 2 Dedicated Server\left4dead2\addons\sourcemod\plugins`
 
  4. 用 `screen` 命令有时候服务器进程可能任然会死掉，建议平时多检查服务器是否还在运行，如果死掉了就kill掉进程再重开
