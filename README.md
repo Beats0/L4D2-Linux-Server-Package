@@ -2,7 +2,11 @@
 
 ### 插件配置
 
-此插件是基于Linux的，因为编译问题，所以有的能在Windows上运行的插件不一定能在Linux环境上运行，前提是你能得到 `.dll` 所对应的 `.so`文件
+此插件是基于Linux的，因为编译问题，所以有的能在Windows上运行的插件不一定能在Linux环境上运行，
+
+使用拓展人数环境：[left4downtown2-v0.5.4.2](https://forums.alliedmods.net/showpost.php?p=2286832&postcount=758)
+
+使用拓展人数插件(默认12人，最大32人)：[ABM：MultiSlots/SuperVersus Alternative](https://forums.alliedmods.net/showthread.php?t=291562),配置详见：https://gitlab.com/vbgunz/ABM
 
 ##### 可能需要用到的工具
 
@@ -22,15 +26,20 @@
 hostname "L4D2 Bhop Server[Beats0]"
 
 // versus 对抗模式
+// mutation或者community设定为突变模式，
+// 模式类型详见 https://tieba.baidu.com/p/2276230914?red_tag=3505874637
+// 如 
+//sm_cvar mp_gamemode "mutation4"
+//sv_gametypes mutation4
+
+sm_cvar mp_gamemode "coop"
+sv_gametypes coop
+
 // realism 写实模式
 // survival 生存模式
 // scavenge 清道夫模式
 // teamscavenge 团队清道夫模式
 // teamversus 团队对抗模式
-
-sm_cvar mp_gamemode "coop"
-
-sv_gametypes coop
 
 // 对抗或药抗请访问
 // 药抗插件：https://github.com/Stabbath/ProMod
@@ -69,6 +78,7 @@ sv_gametypes coop
 ```shell
 //配置Left 4 Dead 2 Dedicated Server\left4dead2\addons\sourcemod\plugins
 plugins
+     ├─abm.smx                  //人数拓展程序
      ├─admin-flatfile.smx
      ├─adminhelp.smx
      ├─adminmenu.smx            //!admin 管理员指令
@@ -94,7 +104,6 @@ plugins
      ├─l4d2_WeaponUnlock.smx    //隐藏武器解锁
      ├─l4d2_zisha.smx           //!zs/!kill 自杀
      ├─l4d_gear_transfer.smx    //电脑自动传递物品
-     ├─l4d_Rmc.smx              //服务器人数
      ├─l4d_infectedhp.smx       //显示血条
      ├─l4dafkfix.smx            //debug服务器人数设置
      ├─nextmap.smx              //自动换图
@@ -112,11 +121,11 @@ plugins
 
 cfg
 ├─sourcemod
+│     ├─abm.cfg                 人数拓展配置  详见 https://forums.alliedmods.net/showthread.php?t=291562
 │     ├─funcommands.cfg
 │     ├─l4d2_All4Dead2.cfg
 │     ├─l4d2_kill_mvp.cfg
 │     ├─l4d2_more_medical.cfg
-│     ├─l4d2_rmc.cfg
 │     ├─l4d2_tank_hp.cfg
 │     ├─l4d2_WeaponUnlock.cfg
 │     ├─l4d2_zisha.cfg
@@ -141,7 +150,10 @@ cfg
 !rygive             管理员指令
 !jg/!joingame	    加入游戏
 !away               旁观
-!addbot             添加一个bot
+
+// addbot 更多abm插件命令详见 https://gitlab.com/vbgunz/ABM
+!abm-mk 4 2         添加4个boot
+!abm-mk -16 2       使用16个boot
 !kb                 剔除bot
 !hp                 回血指令
 
@@ -188,7 +200,7 @@ screen ./start.sh
 
  3.不喜欢的插件就到这个位置删除（对应插件名字）
  
-`Steam\steamapps\common\Left 4 Dead 2 Dedicated Server\left4dead2\addons\sourcemod\plugins`
+ - `Steam\steamapps\common\Left 4 Dead 2 Dedicated Server\left4dead2\addons\sourcemod\plugins`
 
  4. 用 `screen` 命令有时候服务器进程可能任然会死掉，建议平时多检查服务器是否还在运行，如果死掉了就kill掉进程再重开
 
