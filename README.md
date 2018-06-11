@@ -204,7 +204,26 @@ screen ./start.sh
 
  4. 用 `screen` 命令有时候服务器进程可能任然会死掉，建议平时多检查服务器是否还在运行，如果死掉了就kill掉进程再重开
 
- 5. 其他问题......建议等死_(:3/L)\		（百度谷歌或者问问其他老司机）
+ 5. 启动出现 `Your server needs to be restarted in order to receive the latest update.`,原因是因为游戏文件更新了,需要使用steamcmd进行游戏更新
+
+ ```sh
+cd steamcmd
+./steamcmd.sh
+
+Steam>login anonymous
+
+Connecting anonymously to Steam Public...Logged in OK
+Waiting for user info...OK
+
+Steam>app_update 222860 validate
+
+ Update state (0x3) reconfiguring, progress: 0.00 (0 / 0)
+ ....
+ Update state (0x61) downloading, progress: 94.11 (33523135 / 35620287)
+Success! App '222860' fully installed.
+```
+
+ 6. 其他问题......建议等死_(:3/L)\		（百度谷歌或者问问其他老司机）
 
 #### 其他参考
  - [贴吧：[教程]猴子都能看懂的服务器架设教程(Linux限定)](https://tieba.baidu.com/p/4783601071?red_tag=0795345647)
